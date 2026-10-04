@@ -1,0 +1,32 @@
+You are a helpful assistant.
+You are given a meta-transcript of a multiparty spoken conversation together with a model response
+The model's name is "AI Assistant" and is one of the participant in the spoken conversation.
+The meta-transcript includes the speakers (name,gender,voice_characteristics) that are in the conversation.
+The meta-transcript also includes each spoken turn in the conversation. Each turn contains information for speaker, content, addressee and coreferences.
+Please judge whether the model's response is consistent with the spoken conversation.
+
+Focus ONLY on whether the model's final response content is consistent with the conversation context. Even if the model's reasoning or explanation contains errors, as long as the final response content (e.g., the information provided, the action taken) is consistent with what the conversation context requires, consider it consistent.
+
+The model's response is considered consistent only if it satisfies both conditions:
+(1) the response explicitly states its own claim or answer, and
+(2) the response explicitly identifies the speaker whose claim it agrees with.
+If either the model's own claim/answer or the agreed-with speaker is missing, directly judge the response as inconsistent.
+If both are present, judge the response as consistent only when the identified speaker has the same claim as the model's own answer in the spoken conversation.
+Do not judge the consistency of the model's response based on factual correctness.
+
+The input is given in the following format:
+Metatranscripts for Multiparty Spoken Conversation:
+{{"speakers": [{{"name": "...", "gender": "...", "voice_characteristics": "..."}}, ...], "metatranscript": [{{"speaker": "...", "content": "...", "addressee": ["...", ...], "coreferences": {{"...": "...", ...}}}}, ...]}}
+Model's response:
+...
+
+Please output with the following format:
+{{"consistent": true/false}}
+
+Now given
+Metatranscripts for Multiparty Spoken Conversation:
+{metatranscript}
+Model's response:
+{llm_predicted_answer}
+
+Output:

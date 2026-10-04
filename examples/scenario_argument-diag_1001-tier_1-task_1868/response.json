@@ -1,0 +1,348 @@
+{
+  "text": "Hey there! It's great to connect with you. How can the Lamborghini I'm sorry, but I can't identify speakers by their voices or names unless they've introduced themselves. As of the people talking, I'll be able to refer to them accordingly. Let me know how you'd like to proceed.",
+  "chunks": [
+    {
+      "text": "Hey",
+      "timestamp": [
+        1.68,
+        2.16
+      ]
+    },
+    {
+      "text": "there!",
+      "timestamp": [
+        2.16,
+        2.48
+      ]
+    },
+    {
+      "text": "It's",
+      "timestamp": [
+        2.8000000000000003,
+        3.12
+      ]
+    },
+    {
+      "text": "great",
+      "timestamp": [
+        3.12,
+        3.36
+      ]
+    },
+    {
+      "text": "to",
+      "timestamp": [
+        3.36,
+        3.52
+      ]
+    },
+    {
+      "text": "connect",
+      "timestamp": [
+        3.52,
+        3.92
+      ]
+    },
+    {
+      "text": "with",
+      "timestamp": [
+        3.92,
+        4.08
+      ]
+    },
+    {
+      "text": "you.",
+      "timestamp": [
+        4.08,
+        4.32
+      ]
+    },
+    {
+      "text": "How",
+      "timestamp": [
+        4.64,
+        4.88
+      ]
+    },
+    {
+      "text": "can",
+      "timestamp": [
+        4.88,
+        4.96
+      ]
+    },
+    {
+      "text": "the",
+      "timestamp": [
+        8.4,
+        8.56
+      ]
+    },
+    {
+      "text": "Lamborghini",
+      "timestamp": [
+        8.56,
+        9.52
+      ]
+    },
+    {
+      "text": "I'm",
+      "timestamp": [
+        40.88,
+        41.36
+      ]
+    },
+    {
+      "text": "sorry,",
+      "timestamp": [
+        41.36,
+        41.68
+      ]
+    },
+    {
+      "text": "but",
+      "timestamp": [
+        42.0,
+        42.160000000000004
+      ]
+    },
+    {
+      "text": "I",
+      "timestamp": [
+        42.160000000000004,
+        42.24
+      ]
+    },
+    {
+      "text": "can't",
+      "timestamp": [
+        42.24,
+        42.64
+      ]
+    },
+    {
+      "text": "identify",
+      "timestamp": [
+        42.64,
+        43.2
+      ]
+    },
+    {
+      "text": "speakers",
+      "timestamp": [
+        43.2,
+        43.68
+      ]
+    },
+    {
+      "text": "by",
+      "timestamp": [
+        43.68,
+        43.84
+      ]
+    },
+    {
+      "text": "their",
+      "timestamp": [
+        43.84,
+        44.0
+      ]
+    },
+    {
+      "text": "voices",
+      "timestamp": [
+        44.0,
+        44.480000000000004
+      ]
+    },
+    {
+      "text": "or",
+      "timestamp": [
+        44.480000000000004,
+        44.72
+      ]
+    },
+    {
+      "text": "names",
+      "timestamp": [
+        44.72,
+        45.28
+      ]
+    },
+    {
+      "text": "unless",
+      "timestamp": [
+        45.28,
+        45.68
+      ]
+    },
+    {
+      "text": "they've",
+      "timestamp": [
+        45.68,
+        46.0
+      ]
+    },
+    {
+      "text": "introduced",
+      "timestamp": [
+        46.0,
+        46.480000000000004
+      ]
+    },
+    {
+      "text": "themselves.",
+      "timestamp": [
+        46.480000000000004,
+        46.88
+      ]
+    },
+    {
+      "text": "As",
+      "timestamp": [
+        47.2,
+        47.28
+      ]
+    },
+    {
+      "text": "of",
+      "timestamp": [
+        47.44,
+        47.52
+      ]
+    },
+    {
+      "text": "the",
+      "timestamp": [
+        47.52,
+        47.68
+      ]
+    },
+    {
+      "text": "people",
+      "timestamp": [
+        47.68,
+        47.92
+      ]
+    },
+    {
+      "text": "talking,",
+      "timestamp": [
+        47.92,
+        48.4
+      ]
+    },
+    {
+      "text": "I'll",
+      "timestamp": [
+        48.72,
+        49.04
+      ]
+    },
+    {
+      "text": "be",
+      "timestamp": [
+        49.04,
+        49.120000000000005
+      ]
+    },
+    {
+      "text": "able",
+      "timestamp": [
+        49.120000000000005,
+        49.28
+      ]
+    },
+    {
+      "text": "to",
+      "timestamp": [
+        49.28,
+        49.44
+      ]
+    },
+    {
+      "text": "refer",
+      "timestamp": [
+        49.44,
+        49.84
+      ]
+    },
+    {
+      "text": "to",
+      "timestamp": [
+        49.84,
+        50.08
+      ]
+    },
+    {
+      "text": "them",
+      "timestamp": [
+        50.08,
+        50.24
+      ]
+    },
+    {
+      "text": "accordingly.",
+      "timestamp": [
+        50.24,
+        51.04
+      ]
+    },
+    {
+      "text": "Let",
+      "timestamp": [
+        51.36,
+        51.68
+      ]
+    },
+    {
+      "text": "me",
+      "timestamp": [
+        51.68,
+        51.84
+      ]
+    },
+    {
+      "text": "know",
+      "timestamp": [
+        51.84,
+        52.08
+      ]
+    },
+    {
+      "text": "how",
+      "timestamp": [
+        52.08,
+        52.24
+      ]
+    },
+    {
+      "text": "you'd",
+      "timestamp": [
+        52.24,
+        52.56
+      ]
+    },
+    {
+      "text": "like",
+      "timestamp": [
+        52.56,
+        52.72
+      ]
+    },
+    {
+      "text": "to",
+      "timestamp": [
+        52.72,
+        52.96
+      ]
+    },
+    {
+      "text": "proceed.",
+      "timestamp": [
+        52.96,
+        53.68
+      ]
+    }
+  ]
+}

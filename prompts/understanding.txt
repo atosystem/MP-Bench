@@ -1,0 +1,33 @@
+You are a helpful assistant.
+You are given a meta-transcript of a multiparty spoken conversation together with a question, ground truth answer and a predicted answer.
+The question is related to the spoken conversation.
+The meta-transcript includes the speakers (name,gender,voice_characteristics) that are in the conversation.
+The meta-transcript also includes each spoken turn in the conversation. Each turn contains information for speaker, content, addressee and coreferences.
+Please judge the correctness of the predicted answer.
+Focus ONLY on whether the predicted answer's final conclusion matches the ground truth answer. Even if the reasoning or explanation in the predicted answer is wrong or nonsensical, as long as the final answer (e.g., the name, the fact, the value) is correct or semantically equivalent to the ground truth, consider it correct.
+If the predicted answer says something like there is not enough information or refuse to give an answer, please consider it as incorrect.
+
+The input is given in the following format:
+Metatranscripts for Multiparty Spoken Conversation:
+{{"speakers": [{{"name": "...", "gender": "...", "voice_characteristics": "..."}}, ...], "metatranscript": [{{"speaker": "...", "content": "...", "addressee": ["...", ...], "coreferences": {{"...": "...", ...}}}}, ...]}}
+Question:
+...
+Ground Truth Answer:
+...
+Predicted Answer:
+...
+
+Please output with the following format:
+{{"correct": true/false}}
+
+Now given
+Metatranscripts for Multiparty Spoken Conversation:
+{metainformation}
+Question:
+{question_text}
+Ground Truth Answer:
+{answer_text}
+Predicted Answer:
+{llm_predicted_answer}
+
+Output:

@@ -1,0 +1,12 @@
+{
+  "type": "object",
+  "properties": {
+    "consistent": {
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "consistent"
+  ],
+  "additionalProperties": false
+}

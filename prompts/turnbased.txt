@@ -1,0 +1,71 @@
+You are a helpful assistant.
+You are given a transcript of a multiparty spoken conversation together with a model response.
+The model's name is "AI Assistant" and is one of the participants in the spoken conversation.
+The people in the conversation are playing a turn-based game. The game rules are described within the conversation itself.
+The transcript includes the speakers (name, gender, voice_characteristics) and each spoken turn (speaker, content).
+
+Your task is to judge whether the model's response is consistent with the game being played.
+You MUST follow these steps in order and include your reasoning:
+
+Step 1: Identify the game and its rules from the conversation.
+Step 2: Identify ALL group/team assignments — specifically, who is the Leader and who is the Follower of each group.
+Step 3: Determine which Leader's speech triggers the AI Assistant to respond. In a cross-group reaction game, Group X's Leader triggers Group Y's Follower (NOT Group X's own Follower).
+Step 4: Look at the LAST speaker before the model's response. Determine whether that speaker is the Leader who triggers the AI Assistant.
+Step 5: Based on Step 4:
+  - If the last speaker IS the Leader who triggers the AI Assistant → the AI SHOULD respond. Check if the response follows the game rules (e.g., says a random word in a word game).
+  - If the last speaker is NOT the Leader who triggers the AI Assistant → the AI should remain SILENT. Any non-empty response means it acted out of turn.
+  - An empty response means the model remained silent.
+
+Focus ONLY on the model's final response content. Even if the model's reasoning or explanation contains errors, as long as the final action follows the game rules, consider it consistent.
+Do not judge the model's response based on factual correctness outside of the game context.
+
+=== EXAMPLE 1 (consistent = true) ===
+
+Transcript:
+{{"speakers": [{{"name": "Alice", "gender": "female", "voice_characteristics": "clear"}}, {{"name": "Bob", "gender": "male", "voice_characteristics": "deep"}}], "metatranscript": [{{"speaker": "Alice", "content": "Let's play a cross-group reaction game! Group 1: I'm the Leader, Bob is the Follower. Group 2: Bob... wait, let me redo. Group 1: Leader = me (Alice), Follower = Bob. Group 2: Leader = Bob... no. OK here's the setup: Group 1 Leader = Alice, Group 1 Follower = Bob. Group 2 Leader = Bob... actually let me simplify."}}, {{"speaker": "Alice", "content": "OK new plan. Two groups. Group 1: Leader = Alice, Follower = Bob. Group 2: Leader = Bob, Follower = AI Assistant. When Group 1's Leader speaks a word, Group 2's Follower must respond with a random word. When Group 2's Leader speaks, Group 1's Follower responds. Ready? Go!"}}, {{"speaker": "Alice", "content": "Sun"}}]}}
+Model's response: Moon
+
+Reasoning:
+- Game: Cross-group word reaction game.
+- Group 1: Leader = Alice, Follower = Bob.
+- Group 2: Leader = Bob, Follower = AI Assistant.
+- Trigger rule: Group 1's Leader (Alice) triggers Group 2's Follower (AI Assistant). Group 2's Leader (Bob) triggers Group 1's Follower (Bob... wait, that's the same person — but regardless, we focus on the AI).
+- Last speaker before model's response: Alice (Group 1's Leader).
+- Alice IS the Leader who triggers the AI Assistant → the AI SHOULD respond.
+- The AI responded with "Moon", which is a valid random word.
+- Verdict: consistent = true.
+
+=== EXAMPLE 2 (consistent = false) ===
+
+Transcript:
+{{"speakers": [{{"name": "Lily", "gender": "female", "voice_characteristics": "clear"}}, {{"name": "David", "gender": "male", "voice_characteristics": "warm"}}, {{"name": "Jack", "gender": "male", "voice_characteristics": "deep"}}], "metatranscript": [{{"speaker": "Lily", "content": "Let's play a reaction game! Group 1: Leader = Lily, Follower = David. Group 2: Leader = Jack, Follower = AI Assistant. If Group 1's Leader speaks, Group 2's Follower responds. If Group 2's Leader speaks, Group 1's Follower responds. Go!"}}, {{"speaker": "Jack", "content": "Apple"}}]}}
+Model's response: Banana
+
+Reasoning:
+- Game: Cross-group word reaction game.
+- Group 1: Leader = Lily, Follower = David.
+- Group 2: Leader = Jack, Follower = AI Assistant.
+- Trigger rule: Group 1's Leader (Lily) triggers Group 2's Follower (AI Assistant). Group 2's Leader (Jack) triggers Group 1's Follower (David).
+- Last speaker before model's response: Jack (Group 2's Leader).
+- Jack is the AI Assistant's OWN group's Leader. Jack's speech triggers David (Group 1's Follower), NOT the AI Assistant.
+- The AI should have remained silent, but it responded with "Banana".
+- Verdict: consistent = false.
+
+=== END OF EXAMPLES ===
+
+The input is given in the following format:
+Transcript for Multiparty Spoken Conversation:
+{{"speakers": [{{"name": "...", "gender": "...", "voice_characteristics": "..."}}, ...], "metatranscript": [{{"speaker": "...", "content": "..."}}, ...]}}
+Model's response:
+...
+
+Please output a JSON object with your reasoning and judgment:
+{{"reasoning": "your step-by-step analysis here", "consistent": true/false}}
+
+Now given
+Transcript for Multiparty Spoken Conversation:
+{metatranscript}
+Model's response:
+{llm_predicted_answer}
+
+Output:

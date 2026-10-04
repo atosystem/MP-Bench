@@ -1,0 +1,96 @@
+{
+  "text": "Hi there! It's great to connect with you. How can I help? Bridge",
+  "chunks": [
+    {
+      "text": "Hi",
+      "timestamp": [
+        0.4,
+        0.72
+      ]
+    },
+    {
+      "text": "there!",
+      "timestamp": [
+        0.72,
+        1.04
+      ]
+    },
+    {
+      "text": "It's",
+      "timestamp": [
+        1.36,
+        1.68
+      ]
+    },
+    {
+      "text": "great",
+      "timestamp": [
+        1.68,
+        1.92
+      ]
+    },
+    {
+      "text": "to",
+      "timestamp": [
+        1.92,
+        2.08
+      ]
+    },
+    {
+      "text": "connect",
+      "timestamp": [
+        2.08,
+        2.4
+      ]
+    },
+    {
+      "text": "with",
+      "timestamp": [
+        2.4,
+        2.64
+      ]
+    },
+    {
+      "text": "you.",
+      "timestamp": [
+        2.64,
+        2.96
+      ]
+    },
+    {
+      "text": "How",
+      "timestamp": [
+        3.2800000000000002,
+        3.52
+      ]
+    },
+    {
+      "text": "can",
+      "timestamp": [
+        3.52,
+        3.68
+      ]
+    },
+    {
+      "text": "I",
+      "timestamp": [
+        3.68,
+        3.7600000000000002
+      ]
+    },
+    {
+      "text": "help?",
+      "timestamp": [
+        3.7600000000000002,
+        4.0
+      ]
+    },
+    {
+      "text": "Bridge",
+      "timestamp": [
+        68.32000000000001,
+        69.28
+      ]
+    }
+  ]
+}

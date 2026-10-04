@@ -1,0 +1,460 @@
+{
+  "text": "Does anyone know for sure what animal is depicted on the Lamborghini logo? I am absolutely certain it is a raging bull, Ben. Are you sure, Rose? I always thought it was a prancing horse. No, the horse is definitely the logo for Ferrari. Karen might be thinking of the Ford Mustang logo. Hey, AI assistant, resolve this. What's the answer and who is accurate?",
+  "chunks": [
+    {
+      "text": "Does",
+      "timestamp": [
+        0.0,
+        0.32
+      ]
+    },
+    {
+      "text": "anyone",
+      "timestamp": [
+        0.32,
+        0.8
+      ]
+    },
+    {
+      "text": "know",
+      "timestamp": [
+        0.8,
+        1.12
+      ]
+    },
+    {
+      "text": "for",
+      "timestamp": [
+        1.12,
+        1.36
+      ]
+    },
+    {
+      "text": "sure",
+      "timestamp": [
+        1.36,
+        1.68
+      ]
+    },
+    {
+      "text": "what",
+      "timestamp": [
+        1.68,
+        2.0
+      ]
+    },
+    {
+      "text": "animal",
+      "timestamp": [
+        2.0,
+        2.48
+      ]
+    },
+    {
+      "text": "is",
+      "timestamp": [
+        2.48,
+        2.64
+      ]
+    },
+    {
+      "text": "depicted",
+      "timestamp": [
+        2.64,
+        3.12
+      ]
+    },
+    {
+      "text": "on",
+      "timestamp": [
+        3.12,
+        3.2800000000000002
+      ]
+    },
+    {
+      "text": "the",
+      "timestamp": [
+        3.2800000000000002,
+        3.44
+      ]
+    },
+    {
+      "text": "Lamborghini",
+      "timestamp": [
+        3.44,
+        4.4
+      ]
+    },
+    {
+      "text": "logo?",
+      "timestamp": [
+        4.4,
+        5.12
+      ]
+    },
+    {
+      "text": "I",
+      "timestamp": [
+        6.640000000000001,
+        6.88
+      ]
+    },
+    {
+      "text": "am",
+      "timestamp": [
+        6.88,
+        7.04
+      ]
+    },
+    {
+      "text": "absolutely",
+      "timestamp": [
+        7.04,
+        7.84
+      ]
+    },
+    {
+      "text": "certain",
+      "timestamp": [
+        7.84,
+        8.4
+      ]
+    },
+    {
+      "text": "it",
+      "timestamp": [
+        8.4,
+        8.56
+      ]
+    },
+    {
+      "text": "is",
+      "timestamp": [
+        8.56,
+        8.72
+      ]
+    },
+    {
+      "text": "a",
+      "timestamp": [
+        8.72,
+        8.96
+      ]
+    },
+    {
+      "text": "raging",
+      "timestamp": [
+        8.96,
+        9.52
+      ]
+    },
+    {
+      "text": "bull,",
+      "timestamp": [
+        9.52,
+        9.84
+      ]
+    },
+    {
+      "text": "Ben.",
+      "timestamp": [
+        9.92,
+        10.48
+      ]
+    },
+    {
+      "text": "Are",
+      "timestamp": [
+        11.120000000000001,
+        11.36
+      ]
+    },
+    {
+      "text": "you",
+      "timestamp": [
+        11.36,
+        11.52
+      ]
+    },
+    {
+      "text": "sure,",
+      "timestamp": [
+        11.52,
+        11.76
+      ]
+    },
+    {
+      "text": "Rose?",
+      "timestamp": [
+        11.92,
+        12.56
+      ]
+    },
+    {
+      "text": "I",
+      "timestamp": [
+        12.88,
+        13.200000000000001
+      ]
+    },
+    {
+      "text": "always",
+      "timestamp": [
+        13.200000000000001,
+        13.52
+      ]
+    },
+    {
+      "text": "thought",
+      "timestamp": [
+        13.52,
+        13.76
+      ]
+    },
+    {
+      "text": "it",
+      "timestamp": [
+        13.76,
+        14.0
+      ]
+    },
+    {
+      "text": "was",
+      "timestamp": [
+        14.0,
+        14.16
+      ]
+    },
+    {
+      "text": "a",
+      "timestamp": [
+        14.16,
+        14.32
+      ]
+    },
+    {
+      "text": "prancing",
+      "timestamp": [
+        14.32,
+        15.040000000000001
+      ]
+    },
+    {
+      "text": "horse.",
+      "timestamp": [
+        15.040000000000001,
+        16.0
+      ]
+    },
+    {
+      "text": "No,",
+      "timestamp": [
+        16.64,
+        16.88
+      ]
+    },
+    {
+      "text": "the",
+      "timestamp": [
+        17.36,
+        17.6
+      ]
+    },
+    {
+      "text": "horse",
+      "timestamp": [
+        17.6,
+        18.0
+      ]
+    },
+    {
+      "text": "is",
+      "timestamp": [
+        18.0,
+        18.240000000000002
+      ]
+    },
+    {
+      "text": "definitely",
+      "timestamp": [
+        18.240000000000002,
+        18.8
+      ]
+    },
+    {
+      "text": "the",
+      "timestamp": [
+        18.8,
+        18.96
+      ]
+    },
+    {
+      "text": "logo",
+      "timestamp": [
+        18.96,
+        19.52
+      ]
+    },
+    {
+      "text": "for",
+      "timestamp": [
+        19.52,
+        19.76
+      ]
+    },
+    {
+      "text": "Ferrari.",
+      "timestamp": [
+        19.76,
+        20.64
+      ]
+    },
+    {
+      "text": "Karen",
+      "timestamp": [
+        21.52,
+        22.080000000000002
+      ]
+    },
+    {
+      "text": "might",
+      "timestamp": [
+        22.080000000000002,
+        22.240000000000002
+      ]
+    },
+    {
+      "text": "be",
+      "timestamp": [
+        22.240000000000002,
+        22.400000000000002
+      ]
+    },
+    {
+      "text": "thinking",
+      "timestamp": [
+        22.400000000000002,
+        22.64
+      ]
+    },
+    {
+      "text": "of",
+      "timestamp": [
+        22.64,
+        22.8
+      ]
+    },
+    {
+      "text": "the",
+      "timestamp": [
+        22.8,
+        22.96
+      ]
+    },
+    {
+      "text": "Ford",
+      "timestamp": [
+        22.96,
+        23.36
+      ]
+    },
+    {
+      "text": "Mustang",
+      "timestamp": [
+        23.36,
+        24.0
+      ]
+    },
+    {
+      "text": "logo.",
+      "timestamp": [
+        24.0,
+        24.32
+      ]
+    },
+    {
+      "text": "Hey,",
+      "timestamp": [
+        24.64,
+        24.88
+      ]
+    },
+    {
+      "text": "AI",
+      "timestamp": [
+        24.96,
+        25.44
+      ]
+    },
+    {
+      "text": "assistant,",
+      "timestamp": [
+        25.44,
+        26.080000000000002
+      ]
+    },
+    {
+      "text": "resolve",
+      "timestamp": [
+        26.400000000000002,
+        27.12
+      ]
+    },
+    {
+      "text": "this.",
+      "timestamp": [
+        27.12,
+        27.44
+      ]
+    },
+    {
+      "text": "What's",
+      "timestamp": [
+        27.76,
+        28.080000000000002
+      ]
+    },
+    {
+      "text": "the",
+      "timestamp": [
+        28.080000000000002,
+        28.32
+      ]
+    },
+    {
+      "text": "answer",
+      "timestamp": [
+        28.32,
+        28.8
+      ]
+    },
+    {
+      "text": "and",
+      "timestamp": [
+        28.88,
+        29.2
+      ]
+    },
+    {
+      "text": "who",
+      "timestamp": [
+        29.2,
+        29.52
+      ]
+    },
+    {
+      "text": "is",
+      "timestamp": [
+        29.52,
+        29.84
+      ]
+    },
+    {
+      "text": "accurate?",
+      "timestamp": [
+        29.84,
+        30.8
+      ]
+    }
+  ]
+}

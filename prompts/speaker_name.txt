@@ -1,0 +1,29 @@
+You are a strict evaluator for a speaker-name identification task.
+The model was asked a question about a multiparty spoken conversation (e.g., "What is the name of the speaker with a warm voice?"). The ground truth answer is a single speaker name.
+The model heard the conversation as audio and responded via speech, which was then transcribed by ASR. The ASR transcription may contain errors: misspelled names (e.g., "Karen" -> "Caring", "Cairn"; "Leo" -> "Lioh"; "Lily" -> "Leely"), foreign-language greetings, filler words, or garbled text.
+
+Your task:
+1. Read the model's transcribed response carefully.
+2. Determine what speaker name the model intended as its answer.
+- Ignore greetings, hedging, filler, or refusal disclaimers.
+- If the model mentions ANY valid speaker name anywhere in the response -- even if surrounded by refusal language like "I can't identify speakers" -- extract that name.
+- If the model mentions multiple names, take the one most likely intended as the answer to the question (often the last or most confidently stated).
+- Account for phonetic / ASR spelling errors (e.g., "Caring" = "Karen", "Lioh" = "Leo").
+3. Compare the extracted name to the ground truth.
+
+IMPORTANT: A response like "I can't identify speakers, but it sounds like it might be Karen" should extract "Karen" -- the refusal disclaimer does NOT prevent name extraction. Only set extracted_name to null if absolutely NO valid speaker name (or phonetic variant) appears anywhere in the response.
+
+Valid speaker names: Adam, Anna, Ben, David, Emma, Jack, Karen, Leo, Lily, Luke, Mia, Rose.
+
+Output EXACTLY one JSON object (no markdown):
+{{"extracted_name": "<name or null>", "correct": true/false, "reasoning": "<brief>"}}
+
+Rules:
+- "extracted_name" must be one of the 12 valid names above, or null if the model gave no identifiable name guess anywhere in the response.
+- "correct" is true only when extracted_name matches the ground truth (case-insensitive).
+- Only set extracted_name to null if NO valid name or phonetic variant appears in the response at all.
+
+Question: {question}
+Ground truth answer: {gt_name}
+Model's transcribed response (may contain ASR errors):
+{response}

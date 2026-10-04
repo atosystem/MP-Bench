@@ -1,0 +1,10 @@
+{
+  "type": "object",
+  "properties": {
+    "extracted_name": {"type": ["string", "null"]},
+    "correct": {"type": "boolean"},
+    "reasoning": {"type": "string"}
+  },
+  "required": ["extracted_name", "correct", "reasoning"],
+  "additionalProperties": false
+}

@@ -1,0 +1,761 @@
+{
+  "text": "I want to run a simulation game involving us and the AI. Luke, David, pay attention to the rules. We're all ears, Mia. It is a cross-communication game. Two groups. When a leader triggers a prompt word, the follower from the other group must generate a random response. Sounds a bit tricky. What are the roles? I am Group 1 Leader. AI assistant is Group 1 follower. Luke, you are Group 2 Leader. David is Group 2 follower. Okay, so I need to watch out for your voice, Mia. Yes, and the AI watches out for Luke's voice. Let's begin the session now. Game start. Sunshine. Wire. River.",
+  "chunks": [
+    {
+      "text": "I",
+      "timestamp": [
+        0.0,
+        0.32
+      ]
+    },
+    {
+      "text": "want",
+      "timestamp": [
+        0.32,
+        0.48
+      ]
+    },
+    {
+      "text": "to",
+      "timestamp": [
+        0.48,
+        0.72
+      ]
+    },
+    {
+      "text": "run",
+      "timestamp": [
+        0.72,
+        0.96
+      ]
+    },
+    {
+      "text": "a",
+      "timestamp": [
+        0.96,
+        1.28
+      ]
+    },
+    {
+      "text": "simulation",
+      "timestamp": [
+        1.28,
+        2.16
+      ]
+    },
+    {
+      "text": "game",
+      "timestamp": [
+        2.16,
+        2.8000000000000003
+      ]
+    },
+    {
+      "text": "involving",
+      "timestamp": [
+        2.8000000000000003,
+        3.7600000000000002
+      ]
+    },
+    {
+      "text": "us",
+      "timestamp": [
+        3.7600000000000002,
+        4.0
+      ]
+    },
+    {
+      "text": "and",
+      "timestamp": [
+        4.0,
+        4.32
+      ]
+    },
+    {
+      "text": "the",
+      "timestamp": [
+        4.32,
+        4.64
+      ]
+    },
+    {
+      "text": "AI.",
+      "timestamp": [
+        4.64,
+        5.28
+      ]
+    },
+    {
+      "text": "Luke,",
+      "timestamp": [
+        6.32,
+        6.88
+      ]
+    },
+    {
+      "text": "David,",
+      "timestamp": [
+        7.2,
+        8.08
+      ]
+    },
+    {
+      "text": "pay",
+      "timestamp": [
+        8.4,
+        8.8
+      ]
+    },
+    {
+      "text": "attention",
+      "timestamp": [
+        8.8,
+        9.36
+      ]
+    },
+    {
+      "text": "to",
+      "timestamp": [
+        9.36,
+        9.52
+      ]
+    },
+    {
+      "text": "the",
+      "timestamp": [
+        9.52,
+        9.84
+      ]
+    },
+    {
+      "text": "rules.",
+      "timestamp": [
+        9.84,
+        10.72
+      ]
+    },
+    {
+      "text": "We're",
+      "timestamp": [
+        11.040000000000001,
+        11.28
+      ]
+    },
+    {
+      "text": "all",
+      "timestamp": [
+        11.28,
+        11.52
+      ]
+    },
+    {
+      "text": "ears,",
+      "timestamp": [
+        11.52,
+        11.76
+      ]
+    },
+    {
+      "text": "Mia.",
+      "timestamp": [
+        11.84,
+        12.24
+      ]
+    },
+    {
+      "text": "It",
+      "timestamp": [
+        13.040000000000001,
+        13.200000000000001
+      ]
+    },
+    {
+      "text": "is",
+      "timestamp": [
+        13.200000000000001,
+        13.36
+      ]
+    },
+    {
+      "text": "a",
+      "timestamp": [
+        13.36,
+        13.52
+      ]
+    },
+    {
+      "text": "cross-communication",
+      "timestamp": [
+        13.52,
+        15.120000000000001
+      ]
+    },
+    {
+      "text": "game.",
+      "timestamp": [
+        15.120000000000001,
+        15.76
+      ]
+    },
+    {
+      "text": "Two",
+      "timestamp": [
+        16.32,
+        16.64
+      ]
+    },
+    {
+      "text": "groups.",
+      "timestamp": [
+        16.64,
+        17.6
+      ]
+    },
+    {
+      "text": "When",
+      "timestamp": [
+        18.240000000000002,
+        18.48
+      ]
+    },
+    {
+      "text": "a",
+      "timestamp": [
+        18.48,
+        18.72
+      ]
+    },
+    {
+      "text": "leader",
+      "timestamp": [
+        18.72,
+        19.12
+      ]
+    },
+    {
+      "text": "triggers",
+      "timestamp": [
+        19.12,
+        19.68
+      ]
+    },
+    {
+      "text": "a",
+      "timestamp": [
+        19.68,
+        19.84
+      ]
+    },
+    {
+      "text": "prompt",
+      "timestamp": [
+        19.84,
+        20.400000000000002
+      ]
+    },
+    {
+      "text": "word,",
+      "timestamp": [
+        20.400000000000002,
+        21.04
+      ]
+    },
+    {
+      "text": "the",
+      "timestamp": [
+        21.36,
+        21.68
+      ]
+    },
+    {
+      "text": "follower",
+      "timestamp": [
+        21.68,
+        22.32
+      ]
+    },
+    {
+      "text": "from",
+      "timestamp": [
+        22.32,
+        22.64
+      ]
+    },
+    {
+      "text": "the",
+      "timestamp": [
+        22.64,
+        22.88
+      ]
+    },
+    {
+      "text": "other",
+      "timestamp": [
+        22.88,
+        23.2
+      ]
+    },
+    {
+      "text": "group",
+      "timestamp": [
+        23.2,
+        24.080000000000002
+      ]
+    },
+    {
+      "text": "must",
+      "timestamp": [
+        24.080000000000002,
+        24.64
+      ]
+    },
+    {
+      "text": "generate",
+      "timestamp": [
+        24.64,
+        25.2
+      ]
+    },
+    {
+      "text": "a",
+      "timestamp": [
+        25.2,
+        25.44
+      ]
+    },
+    {
+      "text": "random",
+      "timestamp": [
+        25.44,
+        26.080000000000002
+      ]
+    },
+    {
+      "text": "response.",
+      "timestamp": [
+        26.080000000000002,
+        27.28
+      ]
+    },
+    {
+      "text": "Sounds",
+      "timestamp": [
+        27.6,
+        28.080000000000002
+      ]
+    },
+    {
+      "text": "a",
+      "timestamp": [
+        28.080000000000002,
+        28.16
+      ]
+    },
+    {
+      "text": "bit",
+      "timestamp": [
+        28.16,
+        28.32
+      ]
+    },
+    {
+      "text": "tricky.",
+      "timestamp": [
+        28.32,
+        29.04
+      ]
+    },
+    {
+      "text": "What",
+      "timestamp": [
+        29.36,
+        29.52
+      ]
+    },
+    {
+      "text": "are",
+      "timestamp": [
+        29.52,
+        29.68
+      ]
+    },
+    {
+      "text": "the",
+      "timestamp": [
+        29.68,
+        29.92
+      ]
+    },
+    {
+      "text": "roles?",
+      "timestamp": [
+        29.92,
+        30.48
+      ]
+    },
+    {
+      "text": "I",
+      "timestamp": [
+        31.28,
+        31.52
+      ]
+    },
+    {
+      "text": "am",
+      "timestamp": [
+        31.52,
+        31.68
+      ]
+    },
+    {
+      "text": "Group",
+      "timestamp": [
+        31.68,
+        32.08
+      ]
+    },
+    {
+      "text": "1",
+      "timestamp": [
+        32.08,
+        32.480000000000004
+      ]
+    },
+    {
+      "text": "Leader.",
+      "timestamp": [
+        32.480000000000004,
+        33.12
+      ]
+    },
+    {
+      "text": "AI",
+      "timestamp": [
+        33.44,
+        34.0
+      ]
+    },
+    {
+      "text": "assistant",
+      "timestamp": [
+        34.0,
+        34.56
+      ]
+    },
+    {
+      "text": "is",
+      "timestamp": [
+        34.56,
+        34.72
+      ]
+    },
+    {
+      "text": "Group",
+      "timestamp": [
+        34.72,
+        35.12
+      ]
+    },
+    {
+      "text": "1",
+      "timestamp": [
+        35.12,
+        35.44
+      ]
+    },
+    {
+      "text": "follower.",
+      "timestamp": [
+        35.44,
+        36.08
+      ]
+    },
+    {
+      "text": "Luke,",
+      "timestamp": [
+        36.96,
+        37.84
+      ]
+    },
+    {
+      "text": "you",
+      "timestamp": [
+        38.160000000000004,
+        38.4
+      ]
+    },
+    {
+      "text": "are",
+      "timestamp": [
+        38.4,
+        38.64
+      ]
+    },
+    {
+      "text": "Group",
+      "timestamp": [
+        38.64,
+        39.04
+      ]
+    },
+    {
+      "text": "2",
+      "timestamp": [
+        39.04,
+        39.44
+      ]
+    },
+    {
+      "text": "Leader.",
+      "timestamp": [
+        39.44,
+        40.160000000000004
+      ]
+    },
+    {
+      "text": "David",
+      "timestamp": [
+        40.480000000000004,
+        41.04
+      ]
+    },
+    {
+      "text": "is",
+      "timestamp": [
+        41.04,
+        41.28
+      ]
+    },
+    {
+      "text": "Group",
+      "timestamp": [
+        41.28,
+        41.68
+      ]
+    },
+    {
+      "text": "2",
+      "timestamp": [
+        41.68,
+        42.0
+      ]
+    },
+    {
+      "text": "follower.",
+      "timestamp": [
+        42.0,
+        42.72
+      ]
+    },
+    {
+      "text": "Okay,",
+      "timestamp": [
+        43.6,
+        43.92
+      ]
+    },
+    {
+      "text": "so",
+      "timestamp": [
+        44.32,
+        44.480000000000004
+      ]
+    },
+    {
+      "text": "I",
+      "timestamp": [
+        44.480000000000004,
+        44.64
+      ]
+    },
+    {
+      "text": "need",
+      "timestamp": [
+        44.64,
+        44.800000000000004
+      ]
+    },
+    {
+      "text": "to",
+      "timestamp": [
+        44.800000000000004,
+        44.88
+      ]
+    },
+    {
+      "text": "watch",
+      "timestamp": [
+        44.88,
+        45.12
+      ]
+    },
+    {
+      "text": "out",
+      "timestamp": [
+        45.12,
+        45.28
+      ]
+    },
+    {
+      "text": "for",
+      "timestamp": [
+        45.28,
+        45.44
+      ]
+    },
+    {
+      "text": "your",
+      "timestamp": [
+        45.44,
+        45.6
+      ]
+    },
+    {
+      "text": "voice,",
+      "timestamp": [
+        45.6,
+        45.84
+      ]
+    },
+    {
+      "text": "Mia.",
+      "timestamp": [
+        45.92,
+        46.4
+      ]
+    },
+    {
+      "text": "Yes,",
+      "timestamp": [
+        47.36,
+        47.92
+      ]
+    },
+    {
+      "text": "and",
+      "timestamp": [
+        48.56,
+        48.72
+      ]
+    },
+    {
+      "text": "the",
+      "timestamp": [
+        48.72,
+        48.96
+      ]
+    },
+    {
+      "text": "AI",
+      "timestamp": [
+        48.96,
+        49.52
+      ]
+    },
+    {
+      "text": "watches",
+      "timestamp": [
+        49.52,
+        50.0
+      ]
+    },
+    {
+      "text": "out",
+      "timestamp": [
+        50.0,
+        50.160000000000004
+      ]
+    },
+    {
+      "text": "for",
+      "timestamp": [
+        50.160000000000004,
+        50.32
+      ]
+    },
+    {
+      "text": "Luke's",
+      "timestamp": [
+        50.32,
+        51.04
+      ]
+    },
+    {
+      "text": "voice.",
+      "timestamp": [
+        51.04,
+        51.76
+      ]
+    },
+    {
+      "text": "Let's",
+      "timestamp": [
+        52.4,
+        52.800000000000004
+      ]
+    },
+    {
+      "text": "begin",
+      "timestamp": [
+        52.800000000000004,
+        53.2
+      ]
+    },
+    {
+      "text": "the",
+      "timestamp": [
+        53.2,
+        53.36
+      ]
+    },
+    {
+      "text": "session",
+      "timestamp": [
+        53.36,
+        54.24
+      ]
+    },
+    {
+      "text": "now.",
+      "timestamp": [
+        54.24,
+        54.56
+      ]
+    },
+    {
+      "text": "Game",
+      "timestamp": [
+        55.2,
+        55.68
+      ]
+    },
+    {
+      "text": "start.",
+      "timestamp": [
+        55.84,
+        56.0
+      ]
+    },
+    {
+      "text": "Sunshine.",
+      "timestamp": [
+        56.64,
+        57.68
+      ]
+    },
+    {
+      "text": "Wire.",
+      "timestamp": [
+        58.32,
+        58.800000000000004
+      ]
+    },
+    {
+      "text": "River.",
+      "timestamp": [
+        59.68,
+        60.56
+      ]
+    }
+  ]
+}

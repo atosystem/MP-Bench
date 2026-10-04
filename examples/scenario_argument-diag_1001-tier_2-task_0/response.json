@@ -1,0 +1,299 @@
+{
+  "text": "Hola, que gusto saludarte. En que. Sure, the Lamborghini logo features a raging bull, while Ferrari's logo is a prancing horse. So Ben is correct about Lamborghini. And Karen might be thinking of a different car brand, like Ferrari or Ford Mustang.",
+  "chunks": [
+    {
+      "text": "Hola,",
+      "timestamp": [
+        0.8,
+        1.36
+      ]
+    },
+    {
+      "text": "que",
+      "timestamp": [
+        1.52,
+        1.76
+      ]
+    },
+    {
+      "text": "gusto",
+      "timestamp": [
+        1.84,
+        2.32
+      ]
+    },
+    {
+      "text": "saludarte.",
+      "timestamp": [
+        2.32,
+        3.04
+      ]
+    },
+    {
+      "text": "En",
+      "timestamp": [
+        3.36,
+        3.52
+      ]
+    },
+    {
+      "text": "que.",
+      "timestamp": [
+        3.6,
+        3.7600000000000002
+      ]
+    },
+    {
+      "text": "Sure,",
+      "timestamp": [
+        35.6,
+        36.08
+      ]
+    },
+    {
+      "text": "the",
+      "timestamp": [
+        36.4,
+        36.64
+      ]
+    },
+    {
+      "text": "Lamborghini",
+      "timestamp": [
+        36.64,
+        37.6
+      ]
+    },
+    {
+      "text": "logo",
+      "timestamp": [
+        37.6,
+        38.0
+      ]
+    },
+    {
+      "text": "features",
+      "timestamp": [
+        38.0,
+        38.480000000000004
+      ]
+    },
+    {
+      "text": "a",
+      "timestamp": [
+        38.480000000000004,
+        38.72
+      ]
+    },
+    {
+      "text": "raging",
+      "timestamp": [
+        38.72,
+        39.2
+      ]
+    },
+    {
+      "text": "bull,",
+      "timestamp": [
+        39.2,
+        39.68
+      ]
+    },
+    {
+      "text": "while",
+      "timestamp": [
+        40.0,
+        40.24
+      ]
+    },
+    {
+      "text": "Ferrari's",
+      "timestamp": [
+        40.24,
+        41.04
+      ]
+    },
+    {
+      "text": "logo",
+      "timestamp": [
+        41.04,
+        41.44
+      ]
+    },
+    {
+      "text": "is",
+      "timestamp": [
+        41.44,
+        41.6
+      ]
+    },
+    {
+      "text": "a",
+      "timestamp": [
+        41.6,
+        41.76
+      ]
+    },
+    {
+      "text": "prancing",
+      "timestamp": [
+        41.76,
+        42.32
+      ]
+    },
+    {
+      "text": "horse.",
+      "timestamp": [
+        42.32,
+        42.88
+      ]
+    },
+    {
+      "text": "So",
+      "timestamp": [
+        43.2,
+        43.28
+      ]
+    },
+    {
+      "text": "Ben",
+      "timestamp": [
+        43.44,
+        43.84
+      ]
+    },
+    {
+      "text": "is",
+      "timestamp": [
+        43.84,
+        44.0
+      ]
+    },
+    {
+      "text": "correct",
+      "timestamp": [
+        44.0,
+        44.4
+      ]
+    },
+    {
+      "text": "about",
+      "timestamp": [
+        44.4,
+        44.56
+      ]
+    },
+    {
+      "text": "Lamborghini.",
+      "timestamp": [
+        44.56,
+        45.44
+      ]
+    },
+    {
+      "text": "And",
+      "timestamp": [
+        45.76,
+        45.92
+      ]
+    },
+    {
+      "text": "Karen",
+      "timestamp": [
+        45.92,
+        46.480000000000004
+      ]
+    },
+    {
+      "text": "might",
+      "timestamp": [
+        46.480000000000004,
+        46.64
+      ]
+    },
+    {
+      "text": "be",
+      "timestamp": [
+        46.64,
+        46.800000000000004
+      ]
+    },
+    {
+      "text": "thinking",
+      "timestamp": [
+        46.800000000000004,
+        47.04
+      ]
+    },
+    {
+      "text": "of",
+      "timestamp": [
+        47.04,
+        47.2
+      ]
+    },
+    {
+      "text": "a",
+      "timestamp": [
+        47.2,
+        47.28
+      ]
+    },
+    {
+      "text": "different",
+      "timestamp": [
+        47.28,
+        47.6
+      ]
+    },
+    {
+      "text": "car",
+      "timestamp": [
+        47.6,
+        47.84
+      ]
+    },
+    {
+      "text": "brand,",
+      "timestamp": [
+        47.84,
+        48.160000000000004
+      ]
+    },
+    {
+      "text": "like",
+      "timestamp": [
+        48.32,
+        48.56
+      ]
+    },
+    {
+      "text": "Ferrari",
+      "timestamp": [
+        48.56,
+        49.2
+      ]
+    },
+    {
+      "text": "or",
+      "timestamp": [
+        49.2,
+        49.44
+      ]
+    },
+    {
+      "text": "Ford",
+      "timestamp": [
+        49.44,
+        49.84
+      ]
+    },
+    {
+      "text": "Mustang.",
+      "timestamp": [
+        49.84,
+        50.64
+      ]
+    }
+  ]
+}
