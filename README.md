@@ -72,6 +72,8 @@ Task audio:
 
 [https://drive.google.com/file/d/1SxMUFbhUH4FHl6nB-yxC4R9sBcpsU3yL/view?usp=drive_link](https://drive.google.com/file/d/1SxMUFbhUH4FHl6nB-yxC4R9sBcpsU3yL/view?usp=drive_link)
 
+> MP-Bench is for evaluation only. Do not use the tasks or the audio to train a model.
+
 ### 2. Inference
 
 How the agent is served depends on the provider. For every task, append **30 seconds of silence** after the input audio before the model consumes it, and keep the session recording through that tail so the model has time to respond.
